@@ -1,0 +1,35 @@
+linear regression is a supervised machine learning model which models the relationship between 1 dependent variable(also called as target variable) and 1 or more independent variables(features).
+
+- There a 3 types of linear regression
+    - simple linear regression
+    - multiple linear regression
+    - polynomial linear regression
+- these three work on the same concept but work differently.
+
+- How this linear regression algotithm work
+    1) this algorithm fits a straight line(regression line) through the data points, and   
+       later you can make the predictions.
+    - the basic formula for this linear regression looks like y_pred=m*+c
+        - m=slope (coefficient) : determining how much the y changes per unit change in x
+        - c=intercept (bias): value of y when x=0 
+            - It shifts the line up or down on the graph.
+            - if c=5, then even the x=0 the predicted value of y will be 5.
+    2) we calculate the loss using loss functions, loss stands for the difference between 
+       the actual and predicted value, which should be as less as possible to make good  prediction. there are multiple loss functions but here we are going to use the 
+       mse(mean squared error) as an example.
+    3) now comes the optimization step.
+        - there are some types of optimizers, you can also choose them but what it 
+          does is, reduce the loss, by adjusting the prameteres step-by-step.
+        - at each step the loss is reduced.
+        - this process continues until the loss is as low as possible or meets a stoping  
+          condtion.
+        - you calculate the gradients for both m and c, and then update the gradient which 
+          ill show in the code part how its done.
+
+- applications
+    - house price prediction
+
+
+    
+
+    
