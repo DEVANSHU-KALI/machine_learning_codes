@@ -1,4 +1,4 @@
-linear regression is a supervised machine learning model which models the relationship between 1 dependent variable(also called as target variable) and 1 or more independent variables(features).
+**linear regression** is a supervised machine learning model which models the relationship between 1 dependent variable(also called as target variable) and 1 or more independent variables(features).
 
 - There a 3 types of linear regression
     - simple linear regression
@@ -6,7 +6,7 @@ linear regression is a supervised machine learning model which models the relati
     - polynomial linear regression
 - these three work on the same concept but work differently.
 
-- How this linear regression algotithm work
+## How this linear regression algorithm work
     1) this algorithm fits a straight line(regression line) through the data points, and   
        later you can make the predictions.
     - the basic formula for this linear regression looks like y_pred=m*+c
@@ -26,7 +26,7 @@ linear regression is a supervised machine learning model which models the relati
         - you calculate the gradients for both m and c, and then update the gradient which 
           ill show in the code part how its done.
 
-- applications
+## applications
     - house price prediction
 
 
