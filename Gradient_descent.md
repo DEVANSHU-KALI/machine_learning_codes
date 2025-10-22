@@ -10,7 +10,7 @@ The first thing, **what is this gradient descent actually**: *It is a an iterati
 		- objective:
 			- minimize the loss function, for example the mean squared error (mse). the parameters would be m and c
 			- the model : y=mx+c
-			- loss function(mse): 1/n*sum(y-y_pred)^2
+			- loss function(mse): 1/2*sum(y-y_pred)^2
 		- computing the gradients: we use partial derivatives with respect to m and c to do this in the math, but lets assign the formula of that calculation to a variable, so it 		  would be as follow 
 			- m_gradient=(-2/n)*sum(x(y-y_pred))
 			- c_gradient=(-2/n)*sum(y-y_pred)
