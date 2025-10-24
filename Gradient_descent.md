@@ -17,5 +17,3 @@ The first thing, **what is this gradient descent actually**: *It is a an iterati
 		- now updating the gradients: we have the formula for that where we need learning rate to tell the model how much fast should it learn. generally the learning rate is initialized in the start,example 0.001 or 0.0001 or 0.00001.
 			- m=m-learning rate*m_gradient
 			- c=c-learning rate*c_gradient
-			m_{\text{gradient}} &= -\frac{2}{n} \sum (x \cdot (y-\hat{y}))
-		    c_{\text{gradient}} &= -\frac{2}{n} \sum (y - \hat{y})
